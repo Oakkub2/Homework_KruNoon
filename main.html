@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework Kru Noon</title>
-</head>
-<body>
-    <h1>hello this is Homework</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework KruNoon</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js"></script>
+    <!-- Hack Nerd Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg" id="bg"></div>
+
+    <!-- MEMES -->
+    <img src="img/1752939904360.jpg" class="meme" style="top: 10%; left: 5%" />
+    <img
+      src="img/IMG_20250813_151447_742.jpg"
+      class="meme"
+      style="top: 65%; left: 5%; width: 300px; height: 300px;"
+    />
+    <img
+      src="img/44679974_2285516694852636_773665691822718976_n.jpg"
+      class="meme"
+      style="top: 15%; right: 8%; width: 300px; height: 450px;"
+    />
+    <img
+      src="img/484517566_1849801659102260_2787235046378247348_n.jpg"
+      class="meme"
+      style="bottom: 12%; right: 6%; width: 200px; height: 200px;"
+    />
+    <img
+      src="img/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ_20251028_150558_0000.png"
+      class="meme"
+      style="top: 40%; left: 15%"
+    />
+    <img
+      src="img/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ_20251028_150659_0000.png"
+      class="meme"
+      style="bottom: 15%; right: 20%"
+    />
+
+    <div class="container">
+      <h1>Homework</h1>
+
+      <h2>โจทย์</h2>
+      <p>
+        ป้ายทะเบียนรถยนต์ประกอบด้วย ตัวอักษรภาษาอังกฤษ 3 ตัว และตัวเลข 4 หลัก
+        <strong>ห้ามใช้เลขซ้ำกัน</strong>
+      </p>
+
+      <div class="button-wrap">
+        <button id="btn" onclick="toggle()">ดูวิธีทำ</button>
+      </div>
+
+      <div class="result" id="box">
+        <h2>วิธีทำ</h2>
+        <p class="type" id="text"></p>
+
+        <h2>คำตอบ</h2>
+        <p><strong>88,583,040 วิธี</strong></p>
+      </div>
+    </div>
+  </body>
 </html>
